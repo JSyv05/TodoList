@@ -141,7 +141,7 @@ void freeList(Node *list) {
 }
 
 void splash() {
-    system("clear");
+    system("clear");  // do cls if you are using windows
     printf("Welcome to my Todo list app!\n\n");
 }
 
